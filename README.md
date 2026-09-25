@@ -29,9 +29,9 @@ projeto_demografia/
 
 ## Execução
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python src/preparar_dados.py
-streamlit run app/app.py
+python -m streamlit run app/app.py
 ```
 
 ## Regras de integração
